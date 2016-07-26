@@ -32,3 +32,13 @@ body {
     font-weight: 400;
     background-color: #eaeaea;
 }
+
+.short-description p {
+    /* Типографика */
+    font-size: 14px;
+    line-height: 16px;
+    font-style: italic;
+
+    /* Оформление */
+    color: #707070;
+}
