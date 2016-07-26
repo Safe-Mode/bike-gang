@@ -23,7 +23,7 @@ body {
     text-decoration: none;
 }
 
-h2 {
+.description {
     /* Типографика */
     font-size: 18px;
 
