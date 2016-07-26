@@ -1,7 +1,7 @@
 body {
     /* Типографика */
     font-family: "PT Serif", "Times New Roman", serif;
-    font-size: 17px;
+/*    font-size: 17px;*/
 
     /* Оформление */
     background-color: #f8f8f8;
@@ -21,4 +21,14 @@ body {
     /* Оформление */
     color: #333;
     text-decoration: none;
+}
+
+h2 {
+    /* Типографика */
+    font-size: 18px;
+
+    /* Оформление */
+    color: #000;
+    font-weight: 400;
+    background-color: #eaeaea;
 }
