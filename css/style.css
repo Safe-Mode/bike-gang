@@ -23,7 +23,7 @@ body {
     text-decoration: none;
 }
 
-.description {
+.description h2 {
     /* Типографика */
     font-size: 18px;
 
@@ -41,4 +41,14 @@ body {
 
     /* Оформление */
     color: #707070;
+}
+
+.features ul {
+    /* Типографика */
+    font-size: 14px;
+
+    /* Оформление */
+    color: #707070;
+    list-style-image: url(../img/wheel-icon.png);
+    list-style-position: 50% 50%;
 }
