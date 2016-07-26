@@ -1,4 +1,24 @@
 body {
+    /* Типографика */
     font-family: "PT Serif", "Times New Roman", serif;
-    background: #f8f8f8;
+    font-size: 17px;
+
+    /* Оформление */
+    background-color: #f8f8f8;
+}
+
+.main-menu ul li {
+    /* Оформление */
+    list-style: none;
+    background-color: #BAF466; /*пригодится позже*/
+    border-radius: 3px; /*пригодится позже*/
+}
+
+.main-menu ul li a {
+    /* Типографика */
+    font-size: 1.1em;
+
+    /* Оформление */
+    color: #333;
+    text-decoration: none;
 }
