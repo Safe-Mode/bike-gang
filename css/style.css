@@ -23,6 +23,10 @@ body {
     text-decoration: none;
 }
 
+.main-item-image {
+    border: 1px solid #c9f08f;
+}
+
 .description h2 {
     /* Типографика */
     font-size: 18px;
