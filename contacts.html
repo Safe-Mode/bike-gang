@@ -21,24 +21,13 @@
             </ul>
         </nav>
         <h2>Напишите нам</h2>
-        <form action="http://geekbrains.ru" method="post" enctype="multipart/form-data">
+        <form class="contact-us" action="http://geekbrains.ru" method="post" enctype="multipart/form-data">
             <fieldset>
                 <legend>Отправить сообщение</legend><br>
-                <label>
-                    Имя <input type="text" name="first-name" placeholder="Введите ваше имя">
-                </label><br><br>
-                <label>
-                    E-mail <input type="e-mail" name="e-mail" placeholder="Введите ваш e-mail">
-                </label><br><br>
-                <label>
-                    Тема <input type="text" name="message-theme" placeholder="Введите тему обращения">
-                </label><br><br>
-                <label>
-                    Ваше cообщение<br>
-                    <textarea name="message" cols="30" rows="7" placeholder="Напишите ваше сообщение сюда"></textarea>
-                </label><br><br>
-                <input type="file">
-                <br><br>
+                <input type="text" name="first-name" placeholder="Ваше имя"><br><br>
+                <input type="e-mail" name="e-mail" placeholder="Ваш e-mail"><br><br>
+                <input type="text" name="message-theme" placeholder="Тема обращения"><br><br>
+                <textarea name="message" placeholder="Напишите ваше сообщение"></textarea><br><br>
                 <button type="submit">Отправить</button>
             </fieldset>
         </form>

@@ -10,7 +10,7 @@ body {
 .main-menu ul li {
     /* Оформление */
     list-style: none;
-    background-color: #BAF466; /*пойдет кровь из глаз?*/
+    background-color: #c9f08f; /*пойдет кровь из глаз?*/
     border-radius: 3px; /*пригодится позже*/
 }
 
@@ -61,4 +61,54 @@ body {
 
     /* Оформление */
     color: #484343;
+}
+
+.contact-us {
+    /*Блочная модель*/
+    width: 500px;
+}
+
+.contact-us fieldset {
+    /*Оформление*/
+    border-radius: 5px;
+    border-color: #5c7734;
+}
+
+.contact-us fieldset legend {
+    /*Типографика*/
+    font-size: 18px;
+}
+
+.contact-us fieldset input {
+    /*Блочная модель*/
+    width: 200px;
+
+    /*Типографика*/
+    font-family: "PT Serif", "Times New Roman", serif;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.contact-us fieldset textarea {
+    /*Блочная модель*/
+    width: 400px;
+    min-height: 200px;
+
+    /*Типографика*/
+    font-family: "PT Serif", "Times New Roman", serif;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.contact-us fieldset button {
+    /*Типографика*/
+    font-family: "PT Serif", "Times New Roman", serif;
+    font-size: 15px;
+    text-align: center;
+
+    /*Оформление*/
+    border: none;
+    border-radius: 3px;
+    background-color: #c9f08f;
+    color: #333;
 }
