@@ -78,6 +78,35 @@ body {
     list-style-image: url(../img/wheel-icon.png);
 }
 
+.frame-geometry table {
+    border-collapse: collapse;
+}
+
+.frame-geometry table tr th,
+.frame-geometry table tr td {
+    /*Блочная модель*/
+    width: 100px;
+    height: 25px;
+    border-right: 1px solid black;
+
+    /*Типографика*/
+    text-align: center;
+    vertical-align: middle;
+}
+
+.frame-geometry table tr th:last-child,
+.frame-geometry table tr td:last-child {
+    border-right: none;
+}
+
+.frame-geometry table tr {
+    border-bottom: 1px solid black;
+}
+
+.frame-geometry table tr .double-th {
+    text-transform: uppercase;
+}
+
 .detailed-description {
     /* Типографика */
     font-size: 16px;
