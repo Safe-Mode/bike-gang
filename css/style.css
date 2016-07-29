@@ -22,6 +22,14 @@ body {
     background-color: #ff8c00;
 }
 
+.main-menu ul .active-page {
+    background-color: #ff4500;
+}
+
+.main-menu ul li:hover {
+    background-color: #ff4500;
+}
+
 .main-menu ul li a {
     /* Типографика */
     font-size: 1.1em;
