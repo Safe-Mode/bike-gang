@@ -42,7 +42,11 @@ body {
 }
 
 .main-item-image {
-    border: 1px solid #c9f08f;
+    outline: 1px solid #ff8c00;
+}
+
+.main-item-image:hover {
+    outline: none;
 }
 
 .description h2 {
