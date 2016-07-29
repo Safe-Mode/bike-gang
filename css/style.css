@@ -8,18 +8,28 @@ body {
 }
 
 .main-menu ul li {
+    /*Блочная модель*/
+    width: 100px;
+    height: 35px;
+    display: inline-block;
+    border-radius: 5px;
+
+    /*Типографика*/
+    text-align: center;
+
     /* Оформление */
     list-style: none;
-    background-color: #c9f08f; /*пойдет кровь из глаз?*/
-    border-radius: 3px; /*пригодится позже*/
+    background-color: #ff8c00;
 }
 
 .main-menu ul li a {
     /* Типографика */
     font-size: 1.1em;
+    line-height: 35px;
+    vertical-align: middle;
 
     /* Оформление */
-    color: #333;
+    color: #fff;
     text-decoration: none;
 }
 
