@@ -48,6 +48,15 @@ body {
     outline: none;
 }
 
+.description p:first-letter {
+    /*Типографика*/
+    font-family: 'Ruslan Display', cursive;
+    font-size: 30px;
+
+    /*Оформление*/
+    color: #fc8a00;
+}
+
 .description h2 {
     /* Типографика */
     font-size: 18px;
