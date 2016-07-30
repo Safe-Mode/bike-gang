@@ -82,6 +82,14 @@ body {
     border-collapse: collapse;
 }
 
+.frame-geometry table tr {
+    border-bottom: 1px solid black;
+}
+
+.frame-geometry table tr .double-th {
+    text-transform: uppercase;
+}
+
 .frame-geometry table tr th,
 .frame-geometry table tr td {
     /*Блочная модель*/
@@ -99,12 +107,8 @@ body {
     border-right: none;
 }
 
-.frame-geometry table tr {
-    border-bottom: 1px solid black;
-}
-
-.frame-geometry table tr .double-th {
-    text-transform: uppercase;
+.frame-geometry table tr .side-header {
+    width: 80px;
 }
 
 .detailed-description {
