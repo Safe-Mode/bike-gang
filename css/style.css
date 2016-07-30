@@ -73,7 +73,7 @@ body {
     font-size: 15px;
 
     /* Оформление */
-    color: #836440;
+    color: #ac691a;
     list-style-image: url(../img/wheel-icon.png);
     line-height: 24px;
 }
@@ -84,10 +84,10 @@ body {
 }
 
 .frame-geometry table tr {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #000;
 }
 
-.frame-geometry table tr .double-th {
+.frame-geometry table tr .double-header {
     text-transform: uppercase;
 }
 
@@ -96,7 +96,7 @@ body {
     /*Блочная модель*/
     width: 100px;
     height: 25px;
-    border-right: 1px solid black;
+    border-right: 1px solid #000;
 
     /*Типографика*/
     text-align: center;
