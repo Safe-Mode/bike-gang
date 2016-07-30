@@ -1,7 +1,6 @@
 body {
     /* Типографика */
     font-family: "PT Serif", "Times New Roman", serif;
-/*    font-size: 17px;*/
 
     /* Оформление */
     background-color: #f8f8f8;
@@ -74,12 +73,14 @@ body {
     font-size: 15px;
 
     /* Оформление */
-    color: #5c7734;
+    color: #836440;
     list-style-image: url(../img/wheel-icon.png);
+    line-height: 24px;
 }
 
 .frame-geometry table {
     border-collapse: collapse;
+    margin: 30px 0;
 }
 
 .frame-geometry table tr {
