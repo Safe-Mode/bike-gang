@@ -49,6 +49,9 @@ body {
 }
 
 .description p:first-letter {
+    /*Блочная модель*/
+    margin-left: 20px;
+
     /*Типографика*/
     font-family: 'Ruslan Display', cursive;
     font-size: 30px;
@@ -202,4 +205,9 @@ body {
 
 .contact-us fieldset button:hover {
     background-color: #ff4500;
+}
+
+.page-footer {
+    /*Блочная модель*/
+    min-height: 50px;
 }
