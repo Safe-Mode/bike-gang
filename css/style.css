@@ -165,7 +165,7 @@ body {
     font-size: 15px;
 }
 
-.contact-us fieldset input {
+.contact-us fieldset input:not([type="email"]) {
     text-transform: capitalize;
 }
 
@@ -184,6 +184,7 @@ body {
     font-family: "PT Serif", "Times New Roman", serif;
     font-style: italic;
     font-size: 15px;
+    text-transform: capitalize;
 }
 
 .contact-us fieldset button {
