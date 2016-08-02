@@ -26,6 +26,10 @@ body {
     background: #262626;
 }
 
+.logo {
+    margin-bottom: 20px;
+}
+
 .main-menu ul {
     margin: 0;
 }
@@ -36,6 +40,7 @@ body {
     height: 35px;
     display: inline-block;
     border-radius: 5px;
+    margin-right: 10px;
 
     /*Типографика*/
     text-align: center;
