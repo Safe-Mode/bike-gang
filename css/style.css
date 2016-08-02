@@ -11,8 +11,18 @@ body {
     margin: 0 auto;
 }
 
+.clearfix::after {
+    content: "";
+
+    display: table;
+    clear: both;
+}
+
 .page-header {
-    min-width: 200px;
+    min-height: 200px;
+
+    /*Оформление*/
+    background: #262626;
 }
 
 .main-menu ul li {
