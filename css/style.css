@@ -19,6 +19,14 @@ body {
     clear: both;
 }
 
+.left-col {
+    float: left;
+}
+
+.right-col {
+    float: right;
+}
+
 .page-header {
     min-height: 100px;
 
