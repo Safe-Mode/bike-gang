@@ -25,6 +25,8 @@ body {
 
 .right-col {
     float: right;
+
+    position: relative;
 }
 
 .page-header {
@@ -33,6 +35,13 @@ body {
 
     /*Оформление*/
     background: #262626;
+}
+
+.social {
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .social-btn {
@@ -44,9 +53,11 @@ body {
 
     /*Типографика*/
     font-size: 0;
+    line-height: 25px;
+    vertical-align: middle;
 
     /*Оформление*/
-    background: url(../img/social-icons.png) no-repeat;
+    background: url(../img/social-icons.png) no-repeat transparent;
 
     /*Анимация*/
     transition: background-position 0.5s;
@@ -97,7 +108,6 @@ body {
 }
 
 .main-menu {
-    float: right;
     margin-left: 10px;
 }
 
