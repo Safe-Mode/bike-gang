@@ -36,8 +36,9 @@ body {
 }
 
 .social {
-    padding: 0;
     float: right;
+    padding: 0;
+    margin-bottom: 40px;
 }
 
 .social-btn {
@@ -109,7 +110,7 @@ body {
 
 .main-menu {
     margin-left: 10px;
-    float: right;
+    clear: both;
 }
 
 .main-menu ul {
