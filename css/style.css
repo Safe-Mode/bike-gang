@@ -27,11 +27,17 @@ body {
 }
 
 .logo {
-    margin-bottom: 20px;
+    float: left
+}
+
+.main-menu {
+    float: right;
+    margin-left: 10px;
 }
 
 .main-menu ul {
     margin: 0;
+    padding: 0;
 }
 
 .main-menu ul li {
@@ -56,6 +62,10 @@ body {
 
 .main-menu ul li:hover {
     background-color: #ff4500;
+}
+
+.main-menu ul li:last-child {
+    margin-right: 0;
 }
 
 .main-menu ul li a {
