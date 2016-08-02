@@ -25,8 +25,6 @@ body {
 
 .right-col {
     float: right;
-
-    position: relative;
 }
 
 .page-header {
@@ -39,9 +37,7 @@ body {
 
 .social {
     padding: 0;
-    position: absolute;
-    top: 0;
-    right: 0;
+    float: right;
 }
 
 .social-btn {
@@ -107,8 +103,13 @@ body {
     background-position: -101px 5px;
 }
 
+.social-btn-tumblr:hover {
+    background-position: -101px -20px;
+}
+
 .main-menu {
     margin-left: 10px;
+    float: right;
 }
 
 .main-menu ul {
