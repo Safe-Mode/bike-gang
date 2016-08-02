@@ -334,4 +334,8 @@ body {
 .page-footer {
     /*Блочная модель*/
     min-height: 50px;
+
+    /*Оформление*/
+    color: #fff;
+    background: #262626;
 }
