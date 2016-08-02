@@ -155,7 +155,7 @@ body {
     outline: none;
 }
 
-.main-menu ul .active-page a {
+.main-menu ul li .active-page {
     background-color: #ff4500;
 }
 
