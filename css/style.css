@@ -28,14 +28,72 @@ body {
 }
 
 .page-header {
+    /*Блочная модель*/
     min-height: 100px;
 
     /*Оформление*/
     background: #262626;
 }
 
-.logo {
-    float: left
+.social-btn {
+    /*Блочная модель*/
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+    /*Типографика*/
+    font-size: 0;
+
+    /*Оформление*/
+    background: url(../img/social-icons.png) no-repeat;
+
+    /*Анимация*/
+    transition: background-position 0.5s;
+}
+
+.social-btn:hover {
+    background-color: #ff4500;
+}
+
+.social-btn-fb {
+    background-position: 10px 5px;
+}
+
+.social-btn-fb:hover {
+    background-position: 10px -20px;
+
+    transition: background-position 0.5s;
+}
+
+.social-btn-tw {
+    background-position: -17px 5px;
+}
+
+.social-btn-tw:hover {
+    background-position: -17px -20px;
+
+    transition: background-position 0.5s;
+}
+
+.social-btn-inst {
+    background-position: -128px 5px;
+}
+
+.social-btn-inst:hover {
+    background-position: -128px -20px;
+}
+
+.social-btn-google {
+    background-position: -72px 5px;
+}
+
+.social-btn-google:hover {
+    background-position: -72px -20px;
+}
+
+.social-btn-tumblr {
+    background-position: -101px 5px;
 }
 
 .main-menu {
