@@ -339,3 +339,12 @@ body {
     color: #fff;
     background: #262626;
 }
+
+.page-footer .copyright {
+    float: left;
+}
+
+.page-footer .social {
+    float: right;
+    margin: 0;
+}
