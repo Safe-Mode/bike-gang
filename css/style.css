@@ -9,6 +9,7 @@ body {
 .container {
     max-width: 1024px;
     margin: 0 auto;
+    padding: 20px 10px;
 }
 
 .clearfix::after {
@@ -19,10 +20,14 @@ body {
 }
 
 .page-header {
-    min-height: 200px;
+    min-height: 100px;
 
     /*Оформление*/
     background: #262626;
+}
+
+.main-menu ul {
+    margin: 0;
 }
 
 .main-menu ul li {
