@@ -254,6 +254,11 @@ body {
     line-height: 24px;
 }
 
+.frame-geometry-content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
 .frame-geometry img {
     display: block;
     margin: 0 auto;
@@ -298,6 +303,8 @@ body {
 }
 
 .detailed-description {
+    clear: both;
+
     /* Типографика */
     font-size: 16px;
     font-weight: 400;
