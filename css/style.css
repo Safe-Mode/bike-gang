@@ -163,6 +163,19 @@ body {
     background-color: #ff4500;
 }
 
+.catalog-item {
+    /*Блочная модель*/
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+
+    /*Типографика*/
+}
+
+.catalog-item:last-child {
+    margin-right: 0;
+}
+
 .main-item-image {
     outline: 1px solid #ff8c00;
 }
