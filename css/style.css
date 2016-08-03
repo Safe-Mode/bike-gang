@@ -184,7 +184,7 @@ body {
 }
 
 .catalog-item:hover {
-    background-color: rgba(255, 140, 0, 0.15);
+    background-color: rgba(255, 140, 0, 0.2);
 }
 
 .main-item-image {
