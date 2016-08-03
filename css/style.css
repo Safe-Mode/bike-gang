@@ -1,5 +1,5 @@
 body {
-    min-width: 1024px;
+    min-width: 1020px;
 
     /* Типографика */
     font-family: "PT Serif", "Times New Roman", serif;
@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    max-width: 1024px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px 10px;
 }
@@ -190,8 +190,7 @@ body {
 }
 
 .main-item-image {
-    float: left;
-    margin-right: 25px;
+    margin-right: 20px;
     margin-bottom: 25px;
 
     outline: 1px solid #ff8c00;
@@ -225,6 +224,10 @@ body {
     color: #000;
     font-weight: 400;
     background-color: #eaeaea;
+}
+
+.short-description {
+    width: 500px;
 }
 
 .short-description p {
