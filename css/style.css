@@ -1,4 +1,6 @@
 body {
+    min-width: 1024px;
+
     /* Типографика */
     font-family: "PT Serif", "Times New Roman", serif;
 
@@ -189,6 +191,7 @@ body {
 
 .main-item-image {
     float: left;
+    margin-right: 25px;
     margin-bottom: 25px;
 
     outline: 1px solid #ff8c00;
@@ -213,7 +216,6 @@ body {
 .description h2 {
     /*Блочная модель*/
     margin: 0;
-    clear: both;
     padding: 10px;
 
     /* Типографика */
@@ -225,10 +227,6 @@ body {
     background-color: #eaeaea;
 }
 
-.short-description {
-    max-width: 520px;
-}
-
 .short-description p {
     /* Типографика */
     font-size: 14px;
@@ -237,6 +235,10 @@ body {
 
     /* Оформление */
     color: #707070;
+}
+
+.features {
+    clear: both;
 }
 
 .features ul {
