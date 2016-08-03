@@ -166,14 +166,25 @@ body {
 .catalog-item {
     /*Блочная модель*/
     display: inline-block;
+    width: 240px;
     padding: 10px;
     margin-right: 10px;
+    border-radius: 5px;
 
     /*Типографика*/
+    vertical-align: top;
+    text-decoration: none;
+    text-align: center;
+
+    color: inherit;
 }
 
 .catalog-item:last-child {
     margin-right: 0;
+}
+
+.catalog-item:hover {
+    background-color: rgba(255, 140, 0, 0.15);
 }
 
 .main-item-image {
