@@ -188,6 +188,9 @@ body {
 }
 
 .main-item-image {
+    float: left;
+    margin-bottom: 25px;
+
     outline: 1px solid #ff8c00;
 }
 
@@ -208,6 +211,11 @@ body {
 }
 
 .description h2 {
+    /*Блочная модель*/
+    margin: 0;
+    clear: both;
+    padding: 10px;
+
     /* Типографика */
     font-size: 18px;
 
@@ -215,6 +223,11 @@ body {
     color: #000;
     font-weight: 400;
     background-color: #eaeaea;
+}
+
+.short-description {
+    float: right;
+    max-width: 520px;
 }
 
 .short-description p {
@@ -232,7 +245,7 @@ body {
     font-size: 15px;
 
     /* Оформление */
-    color: #765c3f;
+    color: #484343;
     list-style-image: url(../img/wheel-icon.png);
     line-height: 24px;
 }
