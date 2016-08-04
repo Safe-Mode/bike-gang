@@ -353,7 +353,7 @@ body {
 
 .contact-us {
     /*Блочная модель*/
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -422,6 +422,10 @@ body {
 
 .contact-us fieldset button:hover {
     background-color: #ff4500;
+}
+
+.location-contacts {
+    margin-bottom: 25px;
 }
 
 .page-footer {
