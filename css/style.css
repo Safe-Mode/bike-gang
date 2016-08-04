@@ -353,7 +353,8 @@ body {
 
 .contact-us {
     /*Блочная модель*/
-    width: 500px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .contact-us fieldset {
@@ -389,8 +390,11 @@ body {
 
 .contact-us fieldset textarea {
     /*Блочная модель*/
-    width: 400px;
+    resize: none;
+    box-sizing: border-box;
+    width: 100%;
     min-height: 200px;
+    padding: 5px;
 
     /*Типографика*/
     font-family: "PT Serif", "Times New Roman", serif;
