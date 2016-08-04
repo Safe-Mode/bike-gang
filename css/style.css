@@ -1,4 +1,6 @@
 body {
+    min-width: 1020px;
+
     /* Типографика */
     font-family: "PT Serif", "Times New Roman", serif;
 
@@ -7,7 +9,7 @@ body {
 }
 
 .container {
-    max-width: 1024px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px 10px;
 }
@@ -163,7 +165,34 @@ body {
     background-color: #ff4500;
 }
 
+.catalog-item {
+    /*Блочная модель*/
+    display: inline-block;
+    width: 240px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+
+    /*Типографика*/
+    vertical-align: top;
+    text-decoration: none;
+    text-align: center;
+
+    color: inherit;
+}
+
+.catalog-item:last-child {
+    margin-right: 0;
+}
+
+.catalog-item:hover {
+    background-color: rgba(255, 140, 0, 0.2);
+}
+
 .main-item-image {
+    margin-right: 20px;
+    margin-bottom: 25px;
+
     outline: 1px solid #ff8c00;
 }
 
@@ -184,6 +213,10 @@ body {
 }
 
 .description h2 {
+    /*Блочная модель*/
+    margin: 0;
+    padding: 10px;
+
     /* Типографика */
     font-size: 18px;
 
@@ -191,6 +224,11 @@ body {
     color: #000;
     font-weight: 400;
     background-color: #eaeaea;
+}
+
+.short-description {
+    width: 500px;
+    margin-bottom: 20px;
 }
 
 .short-description p {
@@ -203,19 +241,68 @@ body {
     color: #707070;
 }
 
+.btn-block {
+    text-align: center;
+}
+
+.btn {
+    /*Блочная модель*/
+    display: inline-block;
+    padding: 5px 15px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+    /*Типографика*/
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+
+    /*Оформление*/
+    background-color: #4ec900;
+    color: #fff;
+}
+
+.btn:hover {
+    /*Типографика*/
+    font-weight: 700;
+
+    /*Оформление*/
+    background-color: #b6ed93;
+    color: #4d4d4d;
+}
+
+.btn:active {
+    background-color: #ff8c00;
+}
+
+.features {
+    clear: both;
+}
+
 .features ul {
     /* Типографика */
     font-size: 15px;
 
     /* Оформление */
-    color: #765c3f;
+    color: #484343;
     list-style-image: url(../img/wheel-icon.png);
     line-height: 24px;
 }
 
+.frame-geometry-content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.frame-geometry img {
+    display: block;
+    margin: 0 auto;
+}
+
 .frame-geometry table {
     border-collapse: collapse;
-    margin: 30px 0;
+    margin: 30px auto;
 }
 
 .frame-geometry table tr {
@@ -252,6 +339,8 @@ body {
 }
 
 .detailed-description {
+    clear: both;
+
     /* Типографика */
     font-size: 16px;
     font-weight: 400;
@@ -264,7 +353,8 @@ body {
 
 .contact-us {
     /*Блочная модель*/
-    width: 500px;
+    width: 60%;
+    margin: 0 auto;
 }
 
 .contact-us fieldset {
@@ -300,8 +390,11 @@ body {
 
 .contact-us fieldset textarea {
     /*Блочная модель*/
-    width: 400px;
+    resize: none;
+    box-sizing: border-box;
+    width: 100%;
     min-height: 200px;
+    padding: 5px;
 
     /*Типографика*/
     font-family: "PT Serif", "Times New Roman", serif;
@@ -329,6 +422,10 @@ body {
 
 .contact-us fieldset button:hover {
     background-color: #ff4500;
+}
+
+.location-contacts {
+    margin-bottom: 25px;
 }
 
 .page-footer {
