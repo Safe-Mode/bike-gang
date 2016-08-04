@@ -228,6 +228,7 @@ body {
 
 .short-description {
     width: 500px;
+    margin-bottom: 20px;
 }
 
 .short-description p {
@@ -238,6 +239,35 @@ body {
 
     /* Оформление */
     color: #707070;
+}
+
+.btn-block {
+    text-align: center;
+}
+
+.btn {
+    /*Блочная модель*/
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+
+    /*Типографика*/
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+
+    /*Оформление*/
+    background-color: #4ec900;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #6be81c;
+}
+
+.btn:active {
+    background-color: #ff8c00;
 }
 
 .features {
