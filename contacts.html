@@ -44,13 +44,15 @@
         </header>
         <main class="container">
             <h2>Напишите нам</h2>
-            <form class="contact-us" action="http://geekbrains.ru" method="post">
+            <form class="contact-us" action="/echo/html/" method="post">
                 <fieldset>
                     <legend>Отправить сообщение</legend><br>
-                    <input type="text" name="first-name" placeholder="Ваше имя"><br><br>
+                    <input type="text" name="first-name" placeholder="Ваше имя" required autofocus> <span class="required-symbol">*</span><br><br>
                     <input type="email" name="e-mail" placeholder="Ваш e-mail"><br><br>
-                    <input type="text" name="message-theme" placeholder="Тема обращения"><br><br>
-                    <textarea name="message" placeholder="Напишите ваше сообщение"></textarea><br><br>
+                    <input type="tel" name="phone-number" placeholder="Номер телефона"><br><br>
+                    <input type="text" name="message-theme" placeholder="Тема обращения" required> <span class="required-symbol">*</span><br><br>
+                    <textarea name="message" placeholder="Напишите ваше сообщение" required></textarea> <span class="required-symbol">*</span><br>
+                    <i class="required-symbol-note">* - поля, обязательные для заполнения</i><br><br>
                     <button>Отправить</button>
                 </fieldset>
             </form>
