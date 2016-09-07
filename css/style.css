@@ -296,8 +296,6 @@ body {
 }
 
 .btn:hover {
-    font-weight: 700;
-
     background-color: #b6ed93;
     color: #4d4d4d;
 }
