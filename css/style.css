@@ -363,6 +363,13 @@ body {
     border-color: #5c7734;
 }
 
+.contact-us fieldset .required-symbol,
+.contact-us fieldset .required-symbol-note {
+    vertical-align: top;
+    
+    color: #ff4500;
+}
+
 .contact-us fieldset legend {
     /*Типографика*/
     font-size: 18px;
@@ -382,17 +389,11 @@ body {
     text-transform: capitalize;
 }
 
-.contact-us fieldset input[type="email"]:focus {
-    /*Оформление*/
-    color: #e33d00;
-    background-color: #fff6ee;
-}
-
 .contact-us fieldset textarea {
     /*Блочная модель*/
     resize: none;
     box-sizing: border-box;
-    width: 100%;
+    width: 95%;
     min-height: 200px;
     padding: 5px;
 
@@ -418,6 +419,7 @@ body {
     /*Оформление*/
     background-color: #ff8c00;
     color: #fff;
+    cursor: pointer;
 }
 
 .contact-us fieldset button:hover {
