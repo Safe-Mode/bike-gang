@@ -1,10 +1,8 @@
 body {
     min-width: 1020px;
 
-    /* Типографика */
     font-family: "PT Serif", "Times New Roman", serif;
 
-    /* Оформление */
     background-color: #f8f8f8;
 }
 
@@ -30,10 +28,8 @@ body {
 }
 
 .page-header {
-    /*Блочная модель*/
     min-height: 100px;
 
-    /*Оформление*/
     background: #262626;
 }
 
@@ -44,23 +40,19 @@ body {
 }
 
 .social-btn {
-    /*Блочная модель*/
     display: inline-block;
     width: 25px;
     height: 25px;
     border-radius: 50%;
 
-    /*Типографика*/
     font-size: 0;
     text-decoration: none;
     line-height: 25px;
     vertical-align: middle;
 
-    /*Оформление*/
     background: url(../img/social-icons.png) no-repeat transparent;
     outline: none;
 
-    /*Анимация*/
     transition: background-position 0.5s;
 }
 
@@ -123,14 +115,11 @@ body {
 }
 
 .main-menu ul li {
-    /*Блочная модель*/
     display: inline-block;
     margin-right: 10px;
 
-    /*Типографика*/
     text-align: center;
 
-    /* Оформление */
     list-style: none;
 }
 
@@ -139,18 +128,15 @@ body {
 }
 
 .main-menu ul li a {
-    /*Блочная модель*/
     display: block;
     width: 100px;
     height: 35px;
     border-radius: 5px;
 
-    /* Типографика */
     font-size: 1.1em;
     line-height: 35px;
     vertical-align: middle;
 
-    /* Оформление */
     background-color: #ff8c00;
     color: #fff;
     text-decoration: none;
@@ -166,14 +152,12 @@ body {
 }
 
 .catalog-item {
-    /*Блочная модель*/
     display: inline-block;
     width: 240px;
     padding: 10px;
     margin-right: 10px;
     border-radius: 5px;
 
-    /*Типографика*/
     vertical-align: top;
     text-decoration: none;
     text-align: center;
@@ -201,26 +185,20 @@ body {
 }
 
 .description p:first-letter {
-    /*Блочная модель*/
     margin-left: 20px;
 
-    /*Типографика*/
     font-family: 'Ruslan Display', cursive;
     font-size: 30px;
 
-    /*Оформление*/
     color: #fc8a00;
 }
 
 .description h2 {
-    /*Блочная модель*/
     margin: 0;
     padding: 10px;
 
-    /* Типографика */
     font-size: 18px;
 
-    /* Оформление */
     color: #000;
     font-weight: 400;
     background-color: #eaeaea;
@@ -232,12 +210,10 @@ body {
 }
 
 .short-description p {
-    /* Типографика */
     font-size: 14px;
     line-height: 16px;
     font-style: italic;
 
-    /* Оформление */
     color: #707070;
 }
 
@@ -246,28 +222,23 @@ body {
 }
 
 .btn {
-    /*Блочная модель*/
     display: inline-block;
     padding: 5px 15px;
     margin-right: 10px;
     margin-bottom: 20px;
     border-radius: 5px;
 
-    /*Типографика*/
     text-decoration: none;
     font-size: 18px;
     text-transform: uppercase;
 
-    /*Оформление*/
     background-color: #4ec900;
     color: #fff;
 }
 
 .btn:hover {
-    /*Типографика*/
     font-weight: 700;
 
-    /*Оформление*/
     background-color: #b6ed93;
     color: #4d4d4d;
 }
@@ -281,10 +252,8 @@ body {
 }
 
 .features ul {
-    /* Типографика */
     font-size: 15px;
 
-    /* Оформление */
     color: #484343;
     list-style-image: url(../img/wheel-icon.png);
     line-height: 24px;
@@ -319,12 +288,10 @@ body {
 
 .frame-geometry table tr th,
 .frame-geometry table tr td {
-    /*Блочная модель*/
     width: 100px;
     height: 25px;
     border-right: 1px solid #000;
 
-    /*Типографика*/
     text-align: center;
     vertical-align: middle;
 }
@@ -341,24 +308,20 @@ body {
 .detailed-description {
     clear: both;
 
-    /* Типографика */
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
 
-    /* Оформление */
     color: #484343;
 }
 
 .contact-us {
-    /*Блочная модель*/
     width: 60%;
     margin: 0 auto;
 }
 
 .contact-us fieldset {
-    /*Оформление*/
     border-radius: 5px;
     border-color: #5c7734;
 }
@@ -371,15 +334,12 @@ body {
 }
 
 .contact-us fieldset legend {
-    /*Типографика*/
     font-size: 18px;
 }
 
 .contact-us fieldset input {
-    /*Блочная модель*/
     width: 200px;
 
-    /*Типографика*/
     font-family: "PT Serif", "Times New Roman", serif;
     font-style: italic;
     font-size: 15px;
@@ -390,14 +350,12 @@ body {
 }
 
 .contact-us fieldset textarea {
-    /*Блочная модель*/
     resize: none;
     box-sizing: border-box;
     width: 95%;
     min-height: 200px;
     padding: 5px;
 
-    /*Типографика*/
     font-family: "PT Serif", "Times New Roman", serif;
     font-style: italic;
     font-size: 15px;
@@ -405,18 +363,15 @@ body {
 }
 
 .contact-us fieldset button {
-    /*Блочная модель*/
     width: 100px;
     height: 35px;
     border: none;
     border-radius: 5px;
 
-    /*Типографика*/
     font-family: "PT Serif", "Times New Roman", serif;
     font-size: 15px;
     text-align: center;
 
-    /*Оформление*/
     background-color: #ff8c00;
     color: #fff;
     cursor: pointer;
@@ -431,10 +386,8 @@ body {
 }
 
 .page-footer {
-    /*Блочная модель*/
     min-height: 50px;
 
-    /*Оформление*/
     color: #fff;
     background: #262626;
 }
