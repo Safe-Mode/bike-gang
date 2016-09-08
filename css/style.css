@@ -298,6 +298,8 @@ h1 {
 
     background-color: #4ec900;
     color: #fff;
+    border: none;
+    outline: none;
 }
 
 .btn:hover {
