@@ -20,7 +20,7 @@ body {
 }
 
 .row {
-  width: 100%;
+    width: 100%;
 }
 
 .left-col {
@@ -29,6 +29,11 @@ body {
 
 .right-col {
     float: right;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
 }
 
 .page-header {
@@ -373,28 +378,43 @@ body {
     color: #484343;
 }
 
-.contact-us {
+.contact-us,
+.registration {
     width: 60%;
     margin: 0 auto;
 }
 
-.contact-us fieldset {
-    border-radius: 5px;
-    border-color: #5c7734;
+.registration-item .item-label {
+    width: 100px;
 }
 
-.contact-us fieldset .required-symbol,
-.contact-us fieldset .required-symbol-note {
+.registration table {
+    border-spacing: 5px;
+}
+
+.registration-personal-info {
+    margin-bottom: 2%;
+}
+
+fieldset {
+    border-radius: 5px;
+    border-color: #5c7734;
+    margin-bottom: 3%;
+}
+
+.required-symbol,
+.required-symbol-note {
     vertical-align: top;
-    
+    font-style: italic;
+
     color: #ff4500;
 }
 
-.contact-us fieldset legend {
+fieldset legend {
     font-size: 18px;
 }
 
-.contact-us fieldset input {
+fieldset input {
     width: 200px;
 
     font-family: "PT Serif", "Times New Roman", serif;
@@ -402,15 +422,15 @@ body {
     font-size: 15px;
 }
 
-.contact-us fieldset input:not([type="email"]) {
+fieldset input:not([type="email"]) {
     text-transform: capitalize;
 }
 
-.contact-us fieldset textarea {
+fieldset textarea {
     resize: none;
     box-sizing: border-box;
     width: 95%;
-    min-height: 200px;
+    height: 200px;
     padding: 5px;
 
     font-family: "PT Serif", "Times New Roman", serif;
@@ -419,7 +439,7 @@ body {
     text-transform: capitalize;
 }
 
-.contact-us fieldset button {
+fieldset button {
     width: 100px;
     height: 35px;
     border: none;
@@ -434,7 +454,7 @@ body {
     cursor: pointer;
 }
 
-.contact-us fieldset button:hover {
+fieldset button:hover {
     background-color: #ff4500;
 }
 

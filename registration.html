@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <title>Регистрация</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=PT+Serif&subset=cyrillic-ext" rel="stylesheet">
+    </head>
+    <body>
+        <header class="page-header">
+            <div class="container clearfix">
+                <div class="row clearfix">
+                    <div class="logo left-col">
+                        <img src="img/bikegang-logo-white.png" alt="Bike Gang logo" title="Bike Gang">
+                    </div>
+                    <div class="social">
+                        <a class="social-btn social-btn-fb" href="#">facebook</a>
+                        <a class="social-btn social-btn-tw" href="#">twitter</a>
+                        <a class="social-btn social-btn-inst" href="#">instagram</a>
+                        <a class="social-btn social-btn-google" href="#">google</a>
+                        <a class="social-btn social-btn-tumblr" href="#">tumblr</a>
+                    </div>
+                </div>
+                <div class="row clearfix">
+                    <nav class="main-menu left-col">
+                        <ul>
+                            <li>
+                                <a class="active-page" href="#">Главная</a>
+                            </li>
+                            <li>
+                                <a href="catalog.html">Каталог</a>
+                            </li>
+                            <li>
+                                <a href="about-us.html">О нас</a>
+                            </li>
+                            <li>
+                                <a href="contacts.html">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="user-block right-col">
+                        <a class="login" href="#">Вход</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="container">
+            <h1>Регистрация</h1>
+            <form class="registration" action="/echo/html" method="post">
+                <p class="required-symbol-note">Пожалуйста, заполните форму регистрации пользователей. Обязательные поля помечены*</p>
+                <fieldset>
+                    <legend>Контактная информация</legend>
+                    <table class="registration-contact-info">
+                        <tr class="registration-item">
+                            <td class="item-label"><label for="name">Фамилия<span class="required-symbol">*</span></label></td>
+                            <td class="item-field"><input id="name" type="text" placeholder="Иванов" autofocus required pattern="\S+[А-яа-я]"></td>
+                        </tr>
+                        <tr class="registration-item">
+                            <td class="item-label"><label for="name">Имя<span class="required-symbol">*</span></label></td>
+                            <td class="item-field"><input id="name" type="text" placeholder="Иван" required pattern="\S+[А-яа-я]"></td>
+                        </tr>
+                        <tr class="registration-item">
+                            <td class="item-label"><label for="name">Отчество</label></td>
+                            <td class="item-field"><input id="name" type="text" placeholder="Сидорович" pattern="\S+[А-яа-я]"></td>
+                        </tr>
+                        <tr class="registration-item">
+                            <td class="item-label"><label for="phone">Телефон</label></td>
+                            <td class="item-field"><input id="phone" type="tel" placeholder="+7-903-955-55-55" required></td>
+                        </tr>
+                        <tr class="registration-item">
+                            <td class="item-label"><label for="email">Email<span class="required-symbol">*</span></label></td>
+                            <td class="item-field"><input id="email" type="email" placeholder="email@server.com" required></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <fieldset>
+                    <legend>Персональная информация</legend>
+                    <table class="registration-personal-info">
+                        <tr class="registration-item">
+                            <td class="item-label"><label for="age">Возраст</label></td>
+                            <td class="item-field"><input id="age" type="number" required min="14" max="100"></td>
+                        </tr>
+                        <tr class="registration-item">
+                            <td class="item-label"><label for="gender">Пол</label></td>
+                            <td class="item-label">
+                                <select id="gender">
+                                  <option value="female">Мужской</option>
+                                  <option value="male">Женский</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                    <label for="comments">Перечислите дополнительную информацию, которую вы хотели бы сообщить о себе</label>
+                    <textarea id="comments"></textarea>                   
+                </fieldset>
+                <button class="btn" type="button">Зарегистрироваться</button>
+            </form>
+        </main>
+        <footer class="page-footer">
+            <div class="container clearfix">
+                <div class="copyright">
+                    &copy; 2016 &laquo;BikeGang&raquo;. Все права защищены
+                </div>
+                <div class="social">
+                    <a class="social-btn social-btn-fb" href="#">facebook</a>
+                    <a class="social-btn social-btn-tw" href="#">twitter</a>
+                    <a class="social-btn social-btn-inst" href="#">instagram</a>
+                    <a class="social-btn social-btn-google" href="#">google</a>
+                    <a class="social-btn social-btn-tumblr" href="#">tumblr</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
