@@ -10,12 +10,10 @@
     <body>
         <header class="page-header">
             <div class="container clearfix">
-                <div class="left-col">
-                    <div class="logo">
-                        <img src="img/bikegang-logo-white.png" alt="Bike Gang logo" title="Bike Gang">
+                <div class="row clearfix">
+                    <div class="logo left-col">
+                        <a href="index.html"><img src="img/bikegang-logo-white.png" alt="Bike Gang logo" title="Bike Gang"></a>
                     </div>
-                </div>
-                <div class="right-col">
                     <div class="social">
                         <a class="social-btn social-btn-fb" href="#">facebook</a>
                         <a class="social-btn social-btn-tw" href="#">twitter</a>
@@ -23,7 +21,9 @@
                         <a class="social-btn social-btn-google" href="#">google</a>
                         <a class="social-btn social-btn-tumblr" href="#">tumblr</a>
                     </div>
-                    <nav class="main-menu">
+                </div>
+                <div class="row clearfix">
+                    <nav class="main-menu left-col">
                         <ul>
                             <li>
                                 <a href="index.html">Главная</a>
@@ -32,25 +32,30 @@
                                 <a href="catalog.html">Каталог</a>
                             </li>
                             <li>
-                                <a class="active-page" href="contacts.html">Контакты</a>
+                                <a href="about-us.html">О нас</a>
                             </li>
                             <li>
-                                <a href="#">Вход</a>
+                                <a class="active-page" href="registration.html">Контакты</a>
                             </li>
                         </ul>
                     </nav>
+                    <div class="user-block right-col">
+                        <a class="login" href="registration.html">Вход</a>
+                    </div>
                 </div>
             </div>
         </header>
         <main class="container">
             <h2>Напишите нам</h2>
-            <form class="contact-us" action="http://geekbrains.ru" method="post">
+            <form class="contact-us" action="/echo/html/" method="post">
                 <fieldset>
                     <legend>Отправить сообщение</legend><br>
-                    <input type="text" name="first-name" placeholder="Ваше имя"><br><br>
+                    <input type="text" name="first-name" placeholder="Ваше имя" required autofocus> <span class="required-symbol">*</span><br><br>
                     <input type="email" name="e-mail" placeholder="Ваш e-mail"><br><br>
-                    <input type="text" name="message-theme" placeholder="Тема обращения"><br><br>
-                    <textarea name="message" placeholder="Напишите ваше сообщение"></textarea><br><br>
+                    <input type="tel" name="phone-number" placeholder="Номер телефона"><br><br>
+                    <input type="text" name="message-theme" placeholder="Тема обращения" required> <span class="required-symbol">*</span><br><br>
+                    <textarea name="message" placeholder="Напишите ваше сообщение" required></textarea> <span class="required-symbol">*</span><br>
+                    <i class="required-symbol-note">* - поля, обязательные для заполнения</i><br><br>
                     <button>Отправить</button>
                 </fieldset>
             </form>
