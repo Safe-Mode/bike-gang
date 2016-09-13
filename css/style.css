@@ -193,8 +193,6 @@ h1 {
 }
 
 .intro .greeting {
-    margin-bottom: 5%;
-
     font-style: italic;
     font-size: 20px;
 
@@ -218,6 +216,10 @@ h1 {
 
 .intro-features ul {
     font-size: 18px;
+}
+
+.key-features {
+    margin-top: 40px;
 }
 
 .key-features .feature-1 p {
@@ -298,13 +300,15 @@ h1 {
 .btn {
     display: inline-block;
     padding: 5px 15px;
-    margin-right: 10px;
-    margin-bottom: 20px;
+/*    margin-right: 10px;
+    margin-bottom: 20px;*/
+    margin: 20px 10px;
     border-radius: 5px;
 
     text-decoration: none;
     font-size: 18px;
     text-transform: uppercase;
+    font-style: normal;
 
     background-color: #4ec900;
     color: #fff;
@@ -413,6 +417,10 @@ fieldset {
     border-radius: 5px;
     border-color: #5c7734;
     margin-bottom: 3%;
+}
+
+fieldset:last-of-type {
+    margin-bottom: 0;
 }
 
 .required-symbol,
