@@ -1,6 +1,4 @@
 body {
-    min-width: 1020px;
-
     font-family: "PT Serif", "Times New Roman", serif;
 
     background-color: #f8f8f8;
@@ -204,10 +202,16 @@ h1 {
 .intro video {
     margin-left: 3%;
     margin-bottom: 3%;
+    margin-right: 3%;
 }
 
 .intro-features {
+    width: 40%;
     margin-right: 3%;
+}
+
+.intro-features h2 {
+    margin-top: 0;
 }
 
 .intro-features ul {
@@ -215,8 +219,8 @@ h1 {
 }
 
 .key-features .feature-1 p {
-    overflow: hidden;
     padding-left: 3%;
+    max-width: 45%;
 }
 
 .catalog-item {
@@ -467,6 +471,10 @@ fieldset button:hover {
 
 .location-contacts {
     margin-bottom: 25px;
+}
+
+.location iframe {
+    margin-bottom: -20px;
 }
 
 .page-footer {
