@@ -1,4 +1,6 @@
 body {
+    min-width: 360px;
+    
     font-family: "PT Serif", "Times New Roman", serif;
 
     background-color: #f8f8f8;
@@ -391,7 +393,7 @@ h1 {
 
 .contact-us,
 .registration {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
 }
 
