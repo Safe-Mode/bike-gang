@@ -245,7 +245,7 @@ h1 {
     width: 18.8%;
     min-height: 250px;
     
-    font-size: 14px;
+    font-size: calc(8px + 0.5vw);
     vertical-align: top;
     
     border: 1px solid #262626;
@@ -253,7 +253,7 @@ h1 {
 }
 
 .news-item:hover {
-    background-color: rgba(255, 140, 0, 0.2);
+    background-color: rgba(255, 140, 0, 0.1);
 }
 
 .news-item:nth-of-type(5n) {
@@ -270,7 +270,7 @@ h1 {
 }
 
 .news-item .item-heading {
-    font-size: 18px;
+    font-size: calc(12px + 0.5vw);
 }
 
 .catalog-item {
@@ -297,7 +297,7 @@ h1 {
     background-color: rgba(255, 140, 0, 0.2);
     box-shadow: 0 0 20px 5px #666;
     
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: transform ease-in-out 0.7s;
 }
 
