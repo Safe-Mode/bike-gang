@@ -5,7 +5,9 @@
         <title>Контакты</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media-queries.css">
         <link href="https://fonts.googleapis.com/css?family=PT+Serif&subset=cyrillic-ext" rel="stylesheet">
+        <script src="js/popup.js" async></script>
     </head>
     <body>
         <header class="page-header">
@@ -66,7 +68,7 @@
                     ул. 2-я Краснодарская 10, г. Ростов-на-Дону<br>
                     info@bikegang.ru
                 </div>
-                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=KZ06KogBmuO5fiy1vP2HIxlN6IRDv9g3&amp;width=100%&amp;height=374&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2710.3694167317994!2d39.657686315745146!3d47.20935362332773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e3b92a8bb9e0bf%3A0x8a2dad11de44a47f!2zMi3RjyDQmtGA0LDRgdC90L7QtNCw0YDRgdC60LDRjyDRg9C7LiwgMTAsINCg0L7RgdGC0L7Qsi3QvdCwLdCU0L7QvdGDLCDQoNC-0YHRgtC-0LLRgdC60LDRjyDQvtCx0LsuLCAzNDQwMDQ!5e0!3m2!1sru!2sru!4v1473750225748" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
             </section>
         </main>
         <footer class="page-footer">
@@ -83,5 +85,23 @@
                 </div>
             </div>
         </footer>
+        <div class="modal-content">
+            <button class="modal-content-close" type="button" title="close">Закрыть</button>
+            <h2 class="modal-content-title">Личный кабинет</h2>
+            <p>Введите свой логин и пароль</p>
+            <form action="https://echo.htmlacademy.ru" class="login-form" method="post">
+                <input type="text" class="icon-user" name="login" placeholder="Логин">
+                <input type="password" class="icon-password" name="password" placeholder="Пароль">
+                <label class="login-checkbox">
+                    <input type="checkbox" name="remember">
+                    <span class="checkbox-indicator"></span>
+                    Запомните меня
+                </label>
+                <a class="restore" href="#">Я забыл пароль!</a>
+                <button class="btn" type="submit">Войти</button>
+                <a class="btn" href="registration.html">Зарегистрироваться</a>
+            </form>
+        </div>
+        <div class="modal-overlay"></div> 
     </body>
 </html>

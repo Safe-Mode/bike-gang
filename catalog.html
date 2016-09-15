@@ -5,7 +5,9 @@
         <title>Каталог</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media-queries.css">
         <link href="https://fonts.googleapis.com/css?family=PT+Serif&subset=cyrillic-ext" rel="stylesheet">
+        <script src="js/popup.js" async></script>
     </head>
     <body>
         <div class="box">
@@ -72,5 +74,23 @@
                 </div>
             </div>
         </footer>
+        <div class="modal-content">
+            <button class="modal-content-close" type="button" title="close">Закрыть</button>
+            <h2 class="modal-content-title">Личный кабинет</h2>
+            <p>Введите свой логин и пароль</p>
+            <form action="https://echo.htmlacademy.ru" class="login-form" method="post">
+                <input type="text" class="icon-user" name="login" placeholder="Логин">
+                <input type="password" class="icon-password" name="password" placeholder="Пароль">
+                <label class="login-checkbox">
+                    <input type="checkbox" name="remember">
+                    <span class="checkbox-indicator"></span>
+                    Запомните меня
+                </label>
+                <a class="restore" href="#">Я забыл пароль!</a>
+                <button class="btn" type="submit">Войти</button>
+                <a class="btn" href="registration.html">Зарегистрироваться</a>
+            </form>
+        </div>
+        <div class="modal-overlay"></div> 
     </body>
 </html>

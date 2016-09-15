@@ -5,7 +5,9 @@
         <title>&laquo;Велобанда&raquo;</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media-queries.css">
         <link href="https://fonts.googleapis.com/css?family=PT+Serif&subset=cyrillic-ext" rel="stylesheet">
+        <script src="js/popup.js" async></script>
     </head>
     <body>
         <header class="page-header">
@@ -47,44 +49,70 @@
         </header>
         <main class="container">
             <section class="intro clearfix">
-                <p class="greeting">&ldquo;Товарищ! Мы рады тебя приветствовать на сайте лучшего веломагазина&rdquo;.</p>
-                <video width="50%" preload="metadata" controls>
+                <p class="greeting">
+                    &ldquo;Товарищ! Мы рады тебя приветствовать на сайте лучшего веломагазина&rdquo;.<br>
+                    <a class="btn" href="about-us.html#key-features">Почему мы лучшие?</a>
+                </p>
+                <video class="left-col" width="50%" preload="metadata" controls>
                   <source src="video/bikegang.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
                   <source src="video/bikegang.webm" type='video/webm; codecs="vp8, vorbis"'>
                   <source src="video/bikegang.ogv" type='video/ogg; codecs="theora, vorbis"'>
-                </video>
-                <div class="right-col">
-                    <section class="intro-features">
-                        <h2>Не просто интернет магазин</h2>
-                        <ul>
-                          <li>Возврат в течение 365 дней</li>
-                          <li>Гарантия самой низкий цены после покупки</li>
-                          <li>Пожизненная гарантия</li>
-                          <li>Быстрая доставка</li>
-                          <li>365/7 онлайн поддержка</li>
-                        </ul>
-                    </section>
-                </div>
-            </section>
-            <section class="key-features">
-                <h2>Почему мы лучшие?</h2>
-                <section class="feature feature-1 clearfix">
-                    <h3>Комплектующие от топовых производителей</h3>
-                    <div class="left-col">
-                        <img src="img/manufacturers.jpg" width="480px" height="257" alt="Manufacturer's list" title="Круто!">
-                    </div>
-                    <p>Мы&nbsp;являемся официальным дилером многих известных брендов, поставляющих запчасти, в&nbsp;том числе редкие и&nbsp;топовые. Поэтому в&nbsp;качестве и&nbsp;надежности нашего товара нет никаких сомнений.</p>
+                </video>               
+                <section class="intro-features right-col">
+                    <h2>Не просто интернет магазин</h2>
+                    <ul>
+                      <li>Возврат в течение 365 дней</li>
+                      <li>Гарантия самой низкий цены после покупки</li>
+                      <li>Пожизненная гарантия</li>
+                      <li>Быстрая доставка</li>
+                      <li>365/7 онлайн поддержка</li>
+                    </ul>
                 </section>
-                <h3>Пожизненная гарантия</h3>
-                <p>Если вы&nbsp;покупаете велосипед в&nbsp;одном из&nbsp;наших магазинов, вы&nbsp;получаете пожизненную гарантию на&nbsp;раму. Например, если она треснула в&nbsp;момент использования, мы&nbsp;заменим её&nbsp;на&nbsp;новую, при этом все работы по&nbsp;снятию/установке комплектующих будут бесплатными.</p>
-                <h3>Бесплатный сервис</h3>
-                <p>Все велосипеды, лыжи и&nbsp;сноуборды, купленные в&nbsp;&laquo;BikeGang&raquo;, обслуживаются бесплатно в&nbsp;течение всего срока эксплуатации. Обращайтесь к&nbsp;нам с&nbsp;любой проблемой, и&nbsp;наши мастера исправят все дефекты качественно и&nbsp;быстро! Для ТО&nbsp;мы&nbsp;используем новейшее оборудование от&nbsp;известных производителей Park Tool и&nbsp;Wintersteiger.</p>
-                <h3>Профессиональная помощь</h3>
-                <p>В&nbsp;магазинах &laquo;BikeGang&raquo; работают высококвалифицированные специалисты, настоящие фанаты своего дела, которые и&nbsp;сами увлечены активным спортом, а&nbsp;потому отлично понимают ваши потребности и&nbsp;всегда знают, как помочь. Они с&nbsp;радостью проконсультируют вас, помогут выбрать любой товар и&nbsp;дадут советы по&nbsp;уходу за&nbsp;ним.</p>
-                <h3>Специальные условия для клиентов магазина</h3>
-                <p>&laquo;Велобанда&raquo; любит и&nbsp;заботится о&nbsp;своих клиентах. Поэтому мы&nbsp;постоянно устраиваем акции и&nbsp;предоставляем особые условия нашим клиентам.</p>
-                <h3>Возможность заказать любой товар онлайн</h3>
-                <p>Заказывайте любой товар, который есть в&nbsp;наличии, даже не&nbsp;выходя из&nbsp;дома и&nbsp;оплачивайте любым удобным для вас способом. Наши менеджеры сами свяжутся с&nbsp;вами и&nbsp;ответят на&nbsp;все вопросы, а&nbsp;после оплаты заказа, тщательно упакуют ваш товар и&nbsp;отправят его в&nbsp;любую точку России!</p>
+            </section>
+            <section class="news">
+                <h2>Новости</h2>
+                <article class="news-item">
+                    <a href="#">
+                        <img src="img/news.jpg" alt="News picture" class="item-image" width="100%" height="auto">
+                        <h1 class="item-heading">Чемпионат России по триалу. 13-14 августа</h1>
+                        <p class="item-intro">Мероприятие состоится в парке Авиаторов. Приходите, это главный старт сезона в России!</p>
+                    </a>
+                </article>               
+                <article class="news-item">
+                    <a href="#">
+                        <img src="" alt="" class="item-image">
+                        <h1 class="item-heading"></h1>
+                        <p class="item-intro"></p>
+                    </a>
+                </article>
+                <article class="news-item">
+                    <a href="#">
+                        <img src="" alt="" class="item-image">
+                        <h1 class="item-heading"></h1>
+                        <p class="item-intro"></p>
+                    </a>
+                </article>
+                <article class="news-item">
+                    <a href="#">
+                        <img src="" alt="" class="item-image">
+                        <h1 class="item-heading"></h1>
+                        <p class="item-intro"></p>
+                    </a>
+                </article>
+                <article class="news-item">
+                    <a href="#">
+                        <img src="" alt="" class="item-image">
+                        <h1 class="item-heading"></h1>
+                        <p class="item-intro"></p>
+                    </a>
+                </article>
+                <article class="news-item">
+                    <a href="#">
+                        <img src="" alt="" class="item-image">
+                        <h1 class="item-heading"></h1>
+                        <p class="item-intro"></p>
+                    </a>
+                </article>
             </section>
         </main>
         <footer class="page-footer">
@@ -101,5 +129,23 @@
                 </div>
             </div>
         </footer>
+        <div class="modal-content">
+            <button class="modal-content-close" type="button" title="close">Закрыть</button>
+            <h2 class="modal-content-title">Личный кабинет</h2>
+            <p>Введите свой логин и пароль</p>
+            <form action="https://echo.htmlacademy.ru" class="login-form" method="post">
+                <input type="text" class="icon-user" name="login" placeholder="Логин">
+                <input type="password" class="icon-password" name="password" placeholder="Пароль">
+                <label class="login-checkbox">
+                    <input type="checkbox" name="remember">
+                    <span class="checkbox-indicator"></span>
+                    Запомните меня
+                </label>
+                <a class="restore" href="#">Я забыл пароль!</a>
+                <button class="btn" type="submit">Войти</button>
+                <a class="btn" href="registration.html">Зарегистрироваться</a>
+            </form>
+        </div>
+        <div class="modal-overlay"></div>    
     </body>
 </html>
