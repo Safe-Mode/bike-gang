@@ -36,8 +36,11 @@ body {
 }
 
 h1 {
-    text-align: center;
     font-size: 28px;
+}
+
+.center-heading {
+    text-align: center;
 }
 
 .page-header {
@@ -697,7 +700,7 @@ fieldset button:hover {
 }
 
 .login-form input.icon-user {
-
+    
 }
 
 .login-form input.icon-password {
