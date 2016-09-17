@@ -76,6 +76,21 @@
     .intro-features ul {
         font-size: 16px;
     }
+
+    .modal-content {
+	    width: 45%;
+        margin-left: -36%;
+        padding: 5% 10%;
+    }
+
+    .login-form .login-checkbox {
+	    float: left;
+        width: 100%;
+    }
+
+    .login-form .restore {
+        float: left;
+    }
 }
 
 @media screen and (max-width: 595px) {
@@ -91,6 +106,17 @@
         float: none;
         margin: 0 auto;
         width: 80%;
+    }
+
+    .login-form input[type="text"],
+    .login-form input[type="password"] {
+        padding: 5% 10%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .modal-content h2 {
+	    font-size: 22px;
     }
 }
 
@@ -148,5 +174,9 @@
     .registration input[type="number"] {
         min-width: 100px;
         width: 90%;
+    }
+
+    .btn {
+	    font-size: 12px;
     }
 }
