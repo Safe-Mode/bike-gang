@@ -266,7 +266,7 @@ h1 {
     width: 18.8%;
     min-height: 250px;
     
-    font-size: calc(8px + 0.5vw);
+    font-size: 14px;
     vertical-align: top;
     
     border: 1px solid #262626;
@@ -291,7 +291,7 @@ h1 {
 }
 
 .news-item .item-heading {
-    font-size: calc(12px + 0.5vw);
+    font-size: 18px;
 }
 
 .catalog-item {
@@ -373,8 +373,6 @@ h1 {
 .btn {
     display: inline-block;
     padding: 5px 15px;
-/*    margin-right: 10px;
-    margin-bottom: 20px;*/
     margin: 20px 10px;
     border-radius: 5px;
 
