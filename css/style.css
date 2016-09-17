@@ -742,7 +742,7 @@ fieldset button:hover {
 
 .login-checkbox input[type="checkbox"] + .checkbox-indicator {
   position: absolute;
-  top: -3px;
+  top: -1px;
   left: 0;
 
   width: 17px;
