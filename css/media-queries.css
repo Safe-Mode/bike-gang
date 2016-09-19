@@ -1,8 +1,44 @@
+@media screen and (min-width: 721px) and (max-width: 960px) {
+    .news-item {
+	    width: 24.25%;
+    }
+
+    .news-item:nth-of-type(4n) {
+	    margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 496px) and (max-width: 720px) {
+    .news-item {
+	    width: 32.66%;
+    }
+
+    .news-item:nth-of-type(3n) {
+	    margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 495px) {
+    .news-item {
+	    width: 49.5%;
+    }
+
+    .news-item:nth-of-type(2n) {
+	    margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .news-item:nth-of-type(5n) {
+	    margin-right: 1%;
+    }
+}
+
 @media screen and (max-width: 720px) {
     .logo {
         width: 70%;
     }
-    
+
     .logo img {
         width: 90%;
     }
@@ -12,48 +48,75 @@
     h2 {
         font-size: 22px;
     }
-    
+
     .main-menu {
         width: 60px;
         height: 46px;
-        
+
         background: url('../img/menu.png') 50% 50%;
         cursor: pointer;
     }
-    
+
     .main-menu ul {
         display: none;
     }
-    
+
     .main-menu:hover ul {
         display: block;
         position: relative;
         top: 35px;
         left: 15px;
     }
-    
+
     .main-menu ul li a {
         border-radius: initial;
         margin: 0;
     }
-    
+
     .intro-features ul {
         font-size: 16px;
+    }
+
+    .modal-content {
+	    width: 45%;
+        margin-left: -36%;
+        padding: 5% 10%;
+    }
+
+    .login-form .login-checkbox {
+	    float: left;
+        width: 100%;
+    }
+
+    .login-form .restore {
+        float: left;
     }
 }
 
 @media screen and (max-width: 595px) {
     .intro video {
+        float: none;
         display: block;
         margin: 0 auto;
         margin-bottom: 20px;
         width: 80%;
     }
-    
+
     .intro-features {
         float: none;
         margin: 0 auto;
         width: 80%;
+    }
+
+    .login-form input[type="text"],
+    .login-form input[type="password"] {
+        padding: 5% 10%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .modal-content h2 {
+	    font-size: 22px;
     }
 }
 
@@ -65,20 +128,20 @@
         margin: 0 auto;
         margin-bottom: 20px;
     }
-    
+
     .key-features .feature-1 p {
         float: none;
         max-width: 100%;
         margin: 0 auto;
         padding: 0;
     }
-    
+
     .page-header .logo {
         position: absolute;
         top: 60px;
         left: 20px;
     }
-    
+
     .page-header .social {
         float: left;
         margin-bottom: 80px;
@@ -89,27 +152,31 @@
     .logo {
         width: 336px;
     }
-    
+
     .intro .greeting {
         margin-top: 0;
-        
+
         font-size: 18px;
     }
-    
+
     .page-footer .copyright {
         float: none;
         margin-bottom: 20px;
     }
-    
+
     .page-footer .social {
         float: none;
     }
-    
+
     .registration input[type="text"],
     .registration input[type="tel"],
     .registration input[type="email"],
     .registration input[type="number"] {
         min-width: 100px;
         width: 90%;
+    }
+
+    .btn {
+	    font-size: 12px;
     }
 }

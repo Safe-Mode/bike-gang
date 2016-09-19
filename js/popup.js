@@ -32,12 +32,15 @@ overlay.addEventListener('click', function(event) {
     popup.classList.remove('modal-content-show');
     popup.classList.remove('modal-error');
     overlay.classList.remove('modal-overlay-show');
-})
+});
 
 form.addEventListener('submit', function(event) {
   if (!login.value || !password.value) {
     event.preventDefault();
     popup.classList.add('modal-error');
+    setTimeout(function() {
+        popup.classList.remove('modal-error');
+    }, 1000);
   } else {
     localStorage.setItem('login', login.value);
   }
