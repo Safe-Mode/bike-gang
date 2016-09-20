@@ -594,8 +594,6 @@ fieldset button:hover {
 
 .modal-content-show {
   display: block;
-
-  animation: bounce 0.6s;
 }
 
 .modal-error {
@@ -617,6 +615,10 @@ fieldset button:hover {
 
 .modal-overlay-show {
     display: block;
+}
+
+.modal-show-animation {
+    animation: bounce 0.6s;
 }
 
 .modal-content-close {
@@ -675,7 +677,7 @@ fieldset button:hover {
 }
 
 .login-form {
-	margin: 0 auto;
+    margin: 0 auto;
 }
 
 .login-form input[type="text"],
