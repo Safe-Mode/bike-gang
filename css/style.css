@@ -269,8 +269,9 @@ h1 {
     font-size: 14px;
     vertical-align: top;
     
-    border: 1px solid #262626;
     border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 1, 1, 0.2);
 }
 
 .news-item:hover {
