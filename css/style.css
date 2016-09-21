@@ -37,6 +37,8 @@ body {
 
 h1 {
     font-size: 28px;
+    
+    text-shadow: 5px 3px 2px rgba(38, 38, 38, 0.2);
 }
 
 .center-heading {
