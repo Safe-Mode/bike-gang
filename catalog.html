@@ -10,7 +10,6 @@
         <script src="js/popup.js" async></script>
     </head>
     <body>
-        <div class="box">
         <header class="page-header">
             <div class="container clearfix">
                 <div class="row clearfix">
@@ -51,24 +50,92 @@
         <main class="catalog container clearfix">
             <h1>Каталог</h1>
             <div class="catalog-selector left-col">
-
+                <form action="/echo/html" method="post">
+                    <fieldset>
+                        <legend>Бренд</legend>
+                        <label>
+                            <input type="checkbox" value="Giant">
+                            <span class="marker-indicator"></span>
+                            Giant
+                        </label>
+                        <label>
+                            <input type="checkbox" value="Nukeproof">
+                            <span class="marker-indicator"></span>
+                            Nukeproof
+                        </label>
+                        <label>
+                            <input type="checkbox" value="Vitus Bikes">
+                            <span class="marker-indicator"></span>
+                            Vitus Bikes
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Год выпуска</legend>
+                        <label>
+                            <input type="checkbox" value="2014">
+                            <span class="marker-indicator"></span>
+                            2014
+                        </label>
+                        <label>
+                            <input type="checkbox" value="2015">
+                            <span class="marker-indicator"></span>
+                            2015
+                        </label>
+                        <label>
+                            <input type="checkbox" value="2016">
+                            <span class="marker-indicator"></span>
+                            2016
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Размер колес</legend>
+                        <label>
+                            <input type="checkbox" value="26">
+                            <span class="marker-indicator"></span>
+                            26
+                        </label>
+                        <label>
+                            <input type="checkbox" value="27.5">
+                            <span class="marker-indicator"></span>
+                            27.5 (650b)
+                        </label>
+                        <label>
+                            <input type="checkbox" value="29">
+                            <span class="marker-indicator"></span>
+                            29
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Материал рамы</legend>
+                        <label>
+                            <input type="checkbox" value="Аллюминий">
+                            <span class="marker-indicator"></span>
+                            Аллюминий
+                        </label>
+                        <label>
+                            <input type="checkbox" value="Карбон">
+                            <span class="marker-indicator"></span>
+                            Карбон
+                        </label>
+                    </fieldset>
+                    <button class="btn" type="button">Показать</button>
+                </form>
             </div>
             <div class="catalog-list right-col">
                 <a class="catalog-item" href="products/giant-reign-1.html">
-                    <img src="img/reign-275-1.jpg" alt="Giant Reign 1 (2016)" title="Giant Reign 1 (2016)" width="240" height="160">
-                    <h3>Giant Reign 1 (2016)</h3>
+                    <img src="img/reign-275-1.jpg" alt="Giant Reign 1 (2016)" title="Giant Reign 1 (2016)" width="100%" height="auto">
+                    <h3>Giant Reign&nbsp;1 (2016)</h3>
                 </a>
                 <a class="catalog-item" href="products/nukeproof-mega-team.html">
-                    <img src="img/mega-275-team.jpg" alt="Nukeproof Mega Team (2016)" title="Nukeproof Mega Team (2016)" width="240" height="160">
+                    <img src="img/mega-275-team.jpg" alt="Nukeproof Mega Team (2016)" title="Nukeproof Mega Team (2016)" width="100%" height="auto">
                     <h3>Nukeproof Mega Team (2016)</h3>
                 </a>
                 <a class="catalog-item" href="products/vitus-sommet-crx.html">
-                  <img src="img/vitus-bikes-sommet-crx-2016.jpg" alt="Vitus Bikes Sommet CRX (2016)" width="240" height="auto">
+                  <img src="img/vitus-bikes-sommet-crx-2016.jpg" alt="Vitus Bikes Sommet CRX (2016)" width="100%" height="auto">
                   <h3>Vitus Bikes Sommet CRX (2016)</h3>
                 </a>
             </div>
         </main>
-        </div>
         <footer class="page-footer">
             <div class="container clearfix">
                 <div class="copyright">
