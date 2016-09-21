@@ -299,6 +299,7 @@ h1 {
 
 .catalog-selector {
     width: 180px;
+    margin-right: 20px;
 }
 
 .catalog-selector fieldset {
@@ -365,11 +366,16 @@ h1 {
     transform: rotate(45deg);
 }
 
+.catalog-list {
+    width: calc(100% - 200px);
+    max-width: 750px;
+}
+
 .catalog-item {
     display: inline-block;
-    width: 220px;
-    padding: 10px;
-    margin-right: 10px;
+    width: 29.33%;
+    padding: 1.33%;
+    margin-right: 1.33;
     border-radius: 5px;
 
     vertical-align: top;
@@ -378,10 +384,10 @@ h1 {
 
     color: inherit;
     
-    transition: transform ease-in-out 0.7s;
+    transition: transform ease-in-out 0.6s;
 }
 
-.catalog-item:last-child {
+.catalog-item:nth-of-type(3n) {
     margin-right: 0;
 }
 
