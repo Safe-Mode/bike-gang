@@ -298,7 +298,7 @@ h1 {
 }
 
 .catalog-selector {
-    width: 150px;
+    width: 180px;
 }
 
 .catalog-selector fieldset {
@@ -367,7 +367,7 @@ h1 {
 
 .catalog-item {
     display: inline-block;
-    width: 240px;
+    width: 220px;
     padding: 10px;
     margin-right: 10px;
     border-radius: 5px;
