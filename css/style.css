@@ -167,6 +167,7 @@ h1 {
 
 .main-menu ul li .active-page {
     background-color: #ff4500;
+    cursor: auto;
 }
 
 .main-menu ul li a:hover {
