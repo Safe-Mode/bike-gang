@@ -436,6 +436,8 @@ h1 {
 
 .description h2 {
     margin: 0;
+    margin-bottom: 2%;
+
     padding: 2%;
 
     font-size: 18px;
@@ -447,11 +449,13 @@ h1 {
 
 .short-description {
     overflow: hidden;
-    margin-bottom: 20px;
+    margin-bottom: 2px;
 }
 
 .short-description p {
     padding: 2%;
+    margin-bottom: 1%;
+    margin-top: 2%;
     
     font-size: 14px;
     line-height: 16px;
@@ -508,9 +512,17 @@ h1 {
     margin: 0 auto;
 }
 
-.frame-geometry img {
-    display: block;
-    margin: 0 auto;
+.geometry-content-image {
+    width: 50%;
+}
+
+.geometry-content-image img {
+    min-width: 240px;
+}
+
+.geometry-content-params {
+	min-width: 240px;
+    width: 50%;
 }
 
 .frame-geometry table {
@@ -558,6 +570,10 @@ h1 {
     text-align: left;
 
     color: #484343;
+}
+
+.detailed-description p {
+	margin: 0;
 }
 
 .contact-us,
