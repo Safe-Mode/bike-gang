@@ -143,6 +143,11 @@
     .catalog-item h3 {
         font-size: 16px;
     }
+
+    .frame-geometry img {
+        width: 80%;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 495px) {

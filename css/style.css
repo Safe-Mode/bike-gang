@@ -517,12 +517,19 @@ h1 {
 }
 
 .geometry-content-image img {
+    display: block;
     min-width: 240px;
+    margin: 0 auto;
 }
 
 .geometry-content-params {
 	min-width: 240px;
     width: 50%;
+}
+
+.frame-geometry img {
+	display: block;
+    margin: 0 auto;
 }
 
 .frame-geometry table {
