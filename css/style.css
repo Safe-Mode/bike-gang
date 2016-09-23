@@ -407,8 +407,12 @@ h1 {
 }
 
 .main-item-image {
+    float: left;
+    width: 42%;
     margin-right: 20px;
     margin-bottom: 25px;
+    
+    font-size: 0;
 
     outline: 1px solid #ff8c00;
 }
@@ -417,8 +421,12 @@ h1 {
     outline: none;
 }
 
+.description p {
+    padding: 2%;
+}
+
 .description p:first-letter {
-    margin-left: 20px;
+    margin-left: 2%;
 
     font-family: 'Ruslan Display', cursive;
     font-size: 30px;
@@ -428,7 +436,7 @@ h1 {
 
 .description h2 {
     margin: 0;
-    padding: 10px;
+    padding: 2%;
 
     font-size: 18px;
 
@@ -438,11 +446,13 @@ h1 {
 }
 
 .short-description {
-    width: 500px;
+    overflow: hidden;
     margin-bottom: 20px;
 }
 
 .short-description p {
+    padding: 2%;
+    
     font-size: 14px;
     line-height: 16px;
     font-style: italic;
