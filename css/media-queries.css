@@ -44,6 +44,17 @@
     .catalog-item:nth-of-type(3n) {
         margin-right: 1%;
     }
+
+    .geometry-content-image {
+        float: none;
+        width: 80%;
+        margin: auto;
+    }
+
+    .geometry-content-params {
+        float: none;
+        width: 100%
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -93,6 +104,14 @@
     .login-form .restore {
         float: left;
     }
+
+    .main-item-image {
+        float: none;
+        display: block;
+        width: 75%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 595px) {
@@ -123,6 +142,11 @@
     
     .catalog-item h3 {
         font-size: 16px;
+    }
+
+    .frame-geometry img {
+        width: 80%;
+        height: auto;
     }
 }
 

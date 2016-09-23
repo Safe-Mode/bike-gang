@@ -50,21 +50,17 @@
         </header>
         <main class="container">
             <h1>Giant Reign 1 (2016)</h1>
-            <div class="left-col">
-                <a href="../img/reign-275-1.jpg" target="_blank">
-                    <img class="main-item-image" src="../img/reign-275-1.jpg" width="480px" height="320" alt="Giant Reign 1 (2016)" title="Giant Reign 1 (2016)">
-                </a>
-            </div>
-            <div class="right-col">
-                <section class="short-description description">
-                    <h2>Описание товара</h2>
-                    <p>В&nbsp;основе этого агрессивного велосипеда лежит ALUXX&nbsp;SL-рама, переработанная с&nbsp;нуля под 27.5-дюймовую технологию колеса. Фреймсет Reign&nbsp;27.5 задает технологиям аллюминиевых полно-подвесных велосипедов новую планку веса, прочности и&nbsp;производительности, используя максимум от&nbsp;этого превосходного размера колеса.</p>
-                </section>
+            <a href="../img/reign-275-1.jpg" target="_blank">
+                <img class="main-item-image" src="../img/reign-275-1.jpg" width="100%" height="auto" alt="Giant Reign 1 (2016)" title="Giant Reign 1 (2016)">
+            </a>
+            <section class="short-description description">
+                <h2>Описание товара</h2>
+                <p>В&nbsp;основе этого агрессивного велосипеда лежит ALUXX&nbsp;SL-рама, переработанная с&nbsp;нуля под 27.5-дюймовую технологию колеса. Фреймсет Reign&nbsp;27.5 задает технологиям аллюминиевых полно-подвесных велосипедов новую планку веса, прочности и&nbsp;производительности, используя максимум от&nbsp;этого превосходного размера колеса.</p>
                 <div class="btn-block">
                     <a href="#" class="btn">Купить</a>
                     <a href="#" class="btn">Купить в 1 клик</a>
                 </div>
-            </div>
+            </section>
             <section class="features description">
                 <h2>Характеристики товара</h2>
                 <ul>
@@ -171,5 +167,23 @@
                 </div>
             </div>
         </footer>
+        <div class="modal-content">
+            <button class="modal-content-close" type="button" title="close">Закрыть</button>
+            <h2 class="modal-content-title">Личный кабинет</h2>
+            <p>Введите свой логин и пароль</p>
+            <form action="https://echo.htmlacademy.ru" class="login-form" method="post">
+                <input type="text" class="icon-user" name="login" placeholder="Логин">
+                <input type="password" class="icon-password" name="password" placeholder="Пароль">
+                <label class="login-checkbox">
+                    <input type="checkbox" name="remember">
+                    <span class="checkbox-indicator"></span>
+                    Запомните меня
+                </label>
+                <a class="restore" href="#">Я забыл пароль!</a>
+                <button class="btn" type="submit">Войти</button>
+                <a class="btn" href="registration.html">Зарегистрироваться</a>
+            </form>
+        </div>
+        <div class="modal-overlay"></div>
     </body>
 </html>
