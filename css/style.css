@@ -399,7 +399,7 @@ h1 {
 }
 
 .catalog-item:hover {
-    background-color: rgba(255, 140, 0, 0.2);
+    background-color: #ffe6cc;
     box-shadow: 0 0 20px 5px #666;
     
     transform: scale(1.1);
@@ -695,7 +695,7 @@ fieldset button:hover {
 
 .modal-content {
   position: fixed;
-  top: 120px;
+  top: 10%;
   left: 50%;
   z-index: 30;
 
