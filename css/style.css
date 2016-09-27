@@ -141,6 +141,7 @@ h1 {
     margin-right: 10px;
 
     text-align: center;
+    vertical-align: top;
 
     list-style: none;
 }
@@ -151,9 +152,9 @@ h1 {
 
 .main-menu ul li a {
     display: block;
-    width: 100px;
-    height: 35px;
-    border-radius: 5px;
+    min-width: 70px;
+    max-width: 170px;
+    padding: 0 15px;
 
     font-size: 1.1em;
     line-height: 35px;
@@ -162,6 +163,7 @@ h1 {
     background-color: #ff8c00;
     color: #fff;
     text-decoration: none;
+    border-radius: 5px;
     outline: none;
 }
 
