@@ -83,8 +83,13 @@
     }
 
     .main-menu ul li a {
-        border-radius: initial;
+        min-width: 100px;
+        min-height: 40px;
         margin: 0;
+        
+        line-height: 40px;
+        
+        border-radius: initial;
     }
 
     .intro-features ul {
@@ -165,7 +170,7 @@
     .key-features .feature-1 img {
         display: block;
         float: none;
-        max-width: 80%;
+        width: 80%;
         margin: 0 auto;
         margin-bottom: 20px;
     }
