@@ -170,7 +170,7 @@
     .key-features .feature-1 img {
         display: block;
         float: none;
-        max-width: 80%;
+        width: 80%;
         margin: 0 auto;
         margin-bottom: 20px;
     }
